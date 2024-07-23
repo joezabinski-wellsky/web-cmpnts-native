@@ -59,7 +59,7 @@ export class ButtonTextComponent extends HTMLElement {
     if (config?.style === 'outlined') {
       return config?.mode === 'light'
         ? 'var(--light-mode-btn-label-color-outlined)'
-        : 'var(--dark-mode-btn-label-color-outined)';
+        : 'var(--dark-mode-btn-label-color-outlined)';
     }
     // filled style
     return config?.mode === 'light'
